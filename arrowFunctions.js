@@ -1,7 +1,7 @@
 /**
  * Rewrite the following `greet` function as an arrow function
  */
-function greet(name) {
+let greet = (name) => {
   return `Hello ${name}`;
 }
 
@@ -9,7 +9,7 @@ function greet(name) {
  * sum(a, b):
  * - revieces two numbers
  * - returns their sum
- * - write it as an arrow function
+ * - write it as an arrow sfunction
  */
 function sum(a, b) {
   // Your code here

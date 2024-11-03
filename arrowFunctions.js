@@ -11,9 +11,11 @@ let greet = (name) => {
  * - returns their sum
  * - write it as an arrow sfunction
  */
-function sum(a, b) {
-  // Your code here
-}
+
+  let sum = (a, b) => {
+    return a+b;
+  }
+
 
 /**
  * square(n):
@@ -25,8 +27,8 @@ function sum(a, b) {
  * square(4) -> 16
  * sqaure(10) -> 100
  */
-function square(n) {
-  // Your code here
+let square = (n) => {
+  return n*n;
 }
 
 /**
@@ -39,8 +41,13 @@ function square(n) {
  * e.g.
  * squares([1, 2, 3]) -> [1, 4, 9]
  */
-function squares(numbers) {
-  // Your code here
+let squares = (numbers) => {
+  sqrs = [];
+  for (x=0; x<numbers.length; x++){
+    sqrs.push(numbers[x]*numbers[x]);
+  } 
+  console.log(sqrs);
+  return sqrs
 }
 
 module.exports = {

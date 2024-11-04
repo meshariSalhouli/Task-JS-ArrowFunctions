@@ -3,7 +3,7 @@
  */
 let greet = (name) => {
   return `Hello ${name}`;
-}
+};
 
 /**
  * sum(a, b):
@@ -12,10 +12,9 @@ let greet = (name) => {
  * - write it as an arrow sfunction
  */
 
-  let sum = (a, b) => {
-    return a+b;
-  }
-
+let sum = (a, b) => {
+  return a + b;
+};
 
 /**
  * square(n):
@@ -28,8 +27,8 @@ let greet = (name) => {
  * sqaure(10) -> 100
  */
 let square = (n) => {
-  return n*n;
-}
+  return n * n;
+};
 
 /**
  * 🌶️🌶️
@@ -43,12 +42,12 @@ let square = (n) => {
  */
 let squares = (numbers) => {
   sqrs = [];
-  for (x=0; x<numbers.length; x++){
-    sqrs.push(numbers[x]*numbers[x]);
-  } 
+  for (x = 0; x < numbers.length; x++) {
+    sqrs.push(numbers[x] * numbers[x]);
+  }
   console.log(sqrs);
-  return sqrs
-}
+  return sqrs;
+};
 
 module.exports = {
   greet,
